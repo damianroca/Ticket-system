@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/mfondo">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px" 
+        android:text="eTickets"
+        android:gravity="center"
+       	android:textSize="30px"
+		android:textStyle="bold" 
+        />
+        
+    <Button 
+    	android:id="@+id/eventos"
+    	android:text=" Eventos " 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:layout_below="@+id/label"
+    	android:layout_margin="10px" 
+    	android:gravity="center"
+    	/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventos"
+        android:text="  Tickets  " 
+        android:id="@+id/tickets"
+        android:layout_margin="10px"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tickets"
+		android:id="@+id/salir"
+        android:text="  Ayuda   " 
+        android:layout_margin="10px"
+        />
+        
+</RelativeLayout>

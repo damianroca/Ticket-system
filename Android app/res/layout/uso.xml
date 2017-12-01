@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/faplicativo">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px" 
+        android:text="Gestión del Ticket"
+        android:gravity="center"
+       	android:textSize="30px"
+		android:textStyle="bold" 
+        />
+        
+    <Button 
+    	android:id="@+id/detalle"
+    	android:text="      Detalle       " 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:layout_below="@+id/label"
+    	android:layout_margin="10px" 
+    	android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalle"
+        android:text="         QR           " 
+        android:id="@+id/qr"
+        android:layout_margin="10px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qr"
+		android:id="@+id/usar"
+        android:text="   Usar Ticket   " 
+        android:layout_margin="10px"
+        android:layout_centerHorizontal="true"/>
+        
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usar"
+		android:id="@+id/atras"
+        android:text="        Atrás        " 
+        android:layout_margin="10px"
+        android:layout_centerHorizontal="true"/>
+        
+</RelativeLayout>

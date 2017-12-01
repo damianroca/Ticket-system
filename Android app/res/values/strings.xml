@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Proyecto!</string>
+    <string name="app_name">Aplicativo</string>
+    <string name="app_name1">Cartelera Online</string>
+    <string name="app_name2">Gestion de tickets</string>
+    <string name="app_name3">Detalle del Ticket</string><string name="app_name4">Código QR</string><string name="app_name5">Usar ticket</string><string name="salir">Adios</string>
+
+
+
+
+</resources>
